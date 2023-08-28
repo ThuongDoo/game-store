@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  gap: 5px;
+}
+
+.box {
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+form > input, select, .box {
+  height: 30px;
+}
+
+textarea {
+  height: 100px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
